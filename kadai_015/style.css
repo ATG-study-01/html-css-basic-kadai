@@ -27,7 +27,7 @@ h1 {
   border-bottom: solid 3px rgb(115, 115, 114);
 }
 
-/* basicの子孫要素を太文字にする */
-#basic {
+/* #basicの子孫要素について、直下の子要素のpタグのみ太文字にする */
+#basic > p {
   font-weight: bold;
 }
